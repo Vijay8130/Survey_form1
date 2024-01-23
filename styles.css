@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:whitesmoke;
+}
+.container {
+max-width: 600px;
+border: 2px solid black;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top:100px;
+background-color: antiquewhite;
+
+
+}
+
+.header{
+  text-align: center;
+  padding-bottom: 12px;
+  border:2px solid red;
+  margin: 20px;
+}
+
+#survey-form {
+  border: 2px solid green;
+  margin:0px 20px 20px 20px;
+
+}
+form {
+  padding: 40px;
+}
+
+.form-group {
+  font-weight: bold;
+  font-size:18px;
+  margin-bottom:8px;
+}
+
+.form-control{
+  
+  width:100%;
+  padding:5px;
+  border-radius: 4px none;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.submit-button {
+  width:100%;
+  padding:12px;
+  border-radius: 4px solid orange;
+  font-size: 18px;
+  font-weight:bold;
+  background-color: orange;
+ 
+}
+
+.input-checkbox {
+  display:block;
+ 
+}
+
+
+
+textarea {
+  width:100%;
+  padding:12px;
+}
+
+.skills {
+  margin: 4px;
+}
+
+#name-label, #email-label, #number-label, p{
+  margin-bottom: 4px;
+  margin-left:0px;
+  font-size:22px;
+}
+
+
+label {
+  font-size: 16px;
+  display:flex;
+  padding:8px;
+ 
+}

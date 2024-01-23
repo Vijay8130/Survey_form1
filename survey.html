@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Survey Form</h1>
+            <p id="description" class="description text-center">
+                Please enter your details for Campus Interview process
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input 
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your Name"
+                required
+                />
+
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email Id </label>
+                <input 
+                type="email"
+                email="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email Id"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="marks" id="number-label">Enter your Aggegrate Marks </label>
+                <input 
+                type="number"
+                id="number"
+                placeholder="Marks"
+                name="marks"
+                min="59"
+                max="100"
+                value="Ma"
+                class="form-control"
+               
+                />
+            </div>
+            <div class="form-group">
+                <p>--Select you Course-- </p>
+                <select name="branch" id="dropdown" class="form-control" required>
+                    <option value="M.E">Mechanical Engineering</option>
+                    <option value="C.E">Civil Engineering</option>
+                    <option value="C.S">Computer Science</option>
+                    <option value="IT">Information Technology</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p class="options">Select your career path </p>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="career_path"
+                    value="web Development"
+                    class="input-radio"
+                    />web Development
+                </label>
+                <label>
+                    <input 
+                    type="radio"
+                    name="career_path"
+                    value="Sales"
+                    class="input-radio"
+                    />Business Development
+                </label>
+                <label>
+                    <input 
+                    type="radio"
+                    name="career_path"
+                    value="CyberSercurity"
+                    class="input-radio"
+                    />Cyber Sercurity
+                </label>
+               <div class="form-group">
+                <p>which is your dream company</p>
+                <select name="company" id="most-like" class="form-control" required>
+                    <option value="Google">Goolge</option>
+                    <option value="Salesforce">Salesforce</option>
+                    <option value="GeneralMotors">General Motors</option>
+                    <option value="Tesla"><Tesla/option>
+                </select>
+               </div>
+               
+               <div class="form-group">
+                <p>select the skill you have</p>
+
+                <label>
+                    <input
+              name="skills"
+              value="HTML"
+              type="checkbox"
+              class="input-checkbox"  
+             />  HTML</label >
+
+             <label>
+                <input
+                    name="skills"
+                    value="CSS"
+                    type="checkbox"
+                    class="input-checkbox"  
+                    />  CSS</label >
+                
+
+             <label>
+                  <input
+                    name="skills"
+                    value="Java"
+                    type="checkbox"
+                    class="input-checkbox"  
+                    />  Java
+                </label > 
+                    
+                <label>
+                 <input
+                  name="skills"
+                  value="JavaScript"
+                  type="checkbox"
+                  class="input-checkbox"  
+                 />  HTML
+                </label >
+
+                <label>
+                    <input
+                     name="skills"
+                     value="React"
+                     type="checkbox"
+                     class="input-checkbox"  
+                    />  React
+                   </label >
+
+                   <label>
+                    <input
+                     name="skills"
+                     value="Salesforce"
+                     type="checkbox"
+                     class="input-checkbox"  
+                    />  SalesForce
+                   </label >
+                   
+                   <label>
+                    <input
+                     name="skills"
+                     value="SolidWorks"
+                     type="checkbox"
+                     class="input-checkbox"  
+                    />  Solidworks
+                   </label >
+                <div class="form-group"></div>
+                <p>Write a brief Introduction about yourself</p>
+                <textarea 
+                name="Introduction" 
+                id="Intro" 
+                cols="60" 
+                rows="6"
+                placeholder="Introduce yourself"
+                >
+            
+            </textarea>
+               </div>
+            </div>
+            <div class="form-group">
+                <button 
+                type="submit"
+                id="submit"
+                class="submit-button"
+                >Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
